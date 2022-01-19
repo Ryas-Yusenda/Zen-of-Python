@@ -43,7 +43,7 @@ git clone https://github.com/Ryas-Yusenda/Zen-of-Python.git
 Open the directory
 
 ```
-cd "Visualisasi Data COVID-19"
+cd "Compress Pic"
 ```
 
 open cmd from specified directory
