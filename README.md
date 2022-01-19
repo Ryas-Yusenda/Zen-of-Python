@@ -23,10 +23,16 @@
 ## 📝 Table of Project
 
 - [Compress Pic](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Compress%20Pic)
+- [Customer Personality Analysis](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Customer%20Personality%20Analysis)
+- [Hotel Recommendation System](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Hotel%20Recommendation%20System)
 - [Natural Language Processing (Artikel Indonesia)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20Artikel%20Indoesia)
 - [Natural Language Processing (Zomato Resto)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20Zomato%20Restaurant)
+- [Plant Leaf Disease Detection Using CNN](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Plant%20Leaf%20Disease%20Detection%20Using%20CNN)
+- [Python Tutorial](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Python%20Tutorial)
 - [Render Blender](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Render%20Blender)
+- [Text Emotions Detection](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Text%20Emotions%20Detection)
 - [Visualisasi Data COVID-19](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Visualisasi%20Data%20COVID-19)
+- [Webp to PNG Converter](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Webp%20to%20PNG%20Converter)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
