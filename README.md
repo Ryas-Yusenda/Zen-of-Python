@@ -2,7 +2,7 @@
   <a href="" rel="noopener">
    <img width=200px height=200px src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python"></a>
 </p>
-<h3 align="center">Python Project</h3>
+<h3 align="center">Python Project</h3> 
 
 <div align="center">
 
