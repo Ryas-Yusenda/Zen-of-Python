@@ -1,4 +1,6 @@
-seaborn
+os
+numpy
+cv2
 matplotlib
-pandas
-json
+tensorflow
+keras

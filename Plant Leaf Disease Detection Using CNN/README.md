@@ -43,7 +43,7 @@ git clone https://github.com/Ryas-Yusenda/Zen-of-Python.git
 Open the directory
 
 ```
-cd "Visualisasi Data COVID-19"
+cd "Plant Leaf Disease Detection Using CNN"
 ```
 
 open cmd from specified directory
@@ -60,7 +60,7 @@ jupyter notebook
 
 ## 🎈 Usage <a name="usage"></a>
 
-This project aims to display visual data on COVID-19 cases.
+This project aims to solve the problem of leaf disease detection with machine learning using Python.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
