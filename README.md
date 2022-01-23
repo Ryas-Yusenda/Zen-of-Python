@@ -2,7 +2,7 @@
   <a href="" rel="noopener">
    <img width=200px height=200px src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python"></a>
 </p>
-<h3 align="center">Python Project</h3> 
+<h3 align="center">Python Project</h3>
 
 <div align="center">
 
@@ -26,6 +26,9 @@
 - [Customer Personality Analysis](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Customer%20Personality%20Analysis)
 - [Hotel Recommendation System](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Hotel%20Recommendation%20System)
 - [Natural Language Processing (Artikel Indonesia)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20Artikel%20Indoesia)
+- [Natural Language Processing (Fake or Real News)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20Fake%20or%20Real%20News)
+- [Natural Language Processing (US Elections)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20US%20Elections)
+- [Natural Language Processing (WhatsApp Chat)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20WhatsApp%20Chat)
 - [Natural Language Processing (Zomato Resto)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20Zomato%20Restaurant)
 - [Plant Leaf Disease Detection Using CNN](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Plant%20Leaf%20Disease%20Detection%20Using%20CNN)
 - [Python Tutorial](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Python%20Tutorial)
