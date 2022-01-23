@@ -20,7 +20,7 @@
     <br> 
 </p>
 
-## 📝 Table of Project
+## 📝 Table of Content
 
 - [Compress Pic](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Compress%20Pic)
 - [Customer Personality Analysis](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Customer%20Personality%20Analysis)
