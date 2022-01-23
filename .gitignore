@@ -1,3 +1,5 @@
+*.csv
+*.txt
 Compress Pic/Compress_pic.py
 Compress Pic/Compress.cmd
 Compress Pic/Persen/*
@@ -11,5 +13,5 @@ Python Tutorial/*.exe
 Python Tutorial/@Reverensi/*
 Visualisasi Data COVID-19/Indonesia.shp
 Visualisasi Data COVID-19/query.json
-*.csv
-*.txt
+NLP Fake or Real News/NLP_Example.ipynb
+NLP US Elections/NLP_Example.ipynb
