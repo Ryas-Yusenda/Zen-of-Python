@@ -31,6 +31,7 @@
 - [Natural Language Processing (WhatsApp Chat)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20WhatsApp%20Chat)
 - [Natural Language Processing (Zomato Resto)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20Zomato%20Restaurant)
 - [Plant Leaf Disease Detection Using CNN](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Plant%20Leaf%20Disease%20Detection%20Using%20CNN)
+- [Python Bootcamp 2021 Build 15 working Applications and Games](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Python%20Bootcamp%202021%20Build%2015%20working%20Applications%20and%20Games)
 - [Python Tutorial](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Python%20Tutorial)
 - [Render Blender](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Render%20Blender)
 - [Text Emotions Detection](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Text%20Emotions%20Detection)
