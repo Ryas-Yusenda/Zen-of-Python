@@ -1,5 +1,4 @@
 *.csv
-*.txt
 Compress Pic/Compress_pic.py
 Compress Pic/Compress.cmd
 Compress Pic/Persen/*
@@ -16,3 +15,6 @@ Visualisasi Data COVID-19/Indonesia.shp
 Visualisasi Data COVID-19/query.json
 NLP Fake or Real News/NLP_Example.ipynb
 NLP US Elections/NLP_Example.ipynb
+Text Emotions Detection/text.txt
+NLP Artikel Indoesia/artikel.txt
+NLP Zomato Restaurant/total_reviev.txt
