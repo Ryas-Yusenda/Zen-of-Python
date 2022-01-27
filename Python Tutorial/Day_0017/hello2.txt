@@ -1,1 +1,0 @@
-Sekarang kita belajar menulis dengan menggunakan PythonMenulis konten file dengan mode a (append)
