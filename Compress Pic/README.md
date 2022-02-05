@@ -60,7 +60,7 @@ Compress_pic.exe
 
 ## 🎈 Usage <a name="usage"></a>
 
-This project aims to compress photos into smaller sizes
+I'm too lazy to do it manually. So I made an application in python to make my work easier, by compressing photos automatically.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
