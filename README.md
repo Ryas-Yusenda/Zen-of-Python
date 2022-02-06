@@ -25,6 +25,7 @@
 - [Compress Pic](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Compress%20Pic)
 - [Customer Personality Analysis](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Customer%20Personality%20Analysis)
 - [Hotel Recommendation System](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Hotel%20Recommendation%20System)
+- [Multi JPG Subfolder to PDF](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Multi%20JPG%20Subfolder%20to%20PDF)
 - [Natural Language Processing (Artikel Indonesia)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20Artikel%20Indoesia)
 - [Natural Language Processing (Fake or Real News)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20Fake%20or%20Real%20News)
 - [Natural Language Processing (US Elections)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20US%20Elections)
