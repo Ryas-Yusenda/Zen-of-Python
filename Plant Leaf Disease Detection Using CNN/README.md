@@ -60,7 +60,7 @@ jupyter notebook
 
 ## 🎈 Usage <a name="usage"></a>
 
-This project aims to solve the problem of leaf disease detection with machine learning using Python.
+This project aims to solve the problem of leaf disease detection with machine learning using Python. I made this program with my group(Me, Khalil, Torangto).
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
