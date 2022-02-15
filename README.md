@@ -23,6 +23,7 @@
 ## 📝 Table of Content
 
 - [Compress Pic](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Compress%20Pic)
+- [Conclusion Dqlab Analyst Career Track](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Conclusion%20Dqlab%20Analyst%20Career%20Track)
 - [Customer Personality Analysis](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Customer%20Personality%20Analysis)
 - [Hotel Recommendation System](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Hotel%20Recommendation%20System)
 - [Multi JPG Subfolder to PDF](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Multi%20JPG%20Subfolder%20to%20PDF)
