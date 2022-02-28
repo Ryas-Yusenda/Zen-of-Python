@@ -1,6 +1,0 @@
-selenium
-math
-matplotlib
-numpy
-pandas
-seaborn
