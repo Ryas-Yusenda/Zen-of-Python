@@ -29,9 +29,8 @@ Run the project on your local machine for development and testing purposes.
 You have to install some prerequisites.
 
 ```
-pip install pandas
-pip install numpy
-pip install seaborn
+pip install sklearn
+pip install joblib
 ```
 
 ### Installing
@@ -57,7 +56,7 @@ cmd
 Then run the command
 
 ```
-jupyter notebook
+py main.py
 ```
 
 ## 🎈 Usage <a name="usage"></a>
