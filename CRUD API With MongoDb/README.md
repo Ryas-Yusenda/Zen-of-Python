@@ -43,7 +43,7 @@ git clone https://github.com/Ryas-Yusenda/Zen-of-Python.git
 Open the directory
 
 ```
-cd "CRUD Application using FASTAPI Python & MongoDB"
+cd "CRUD API With MongoDb"
 ```
 
 open cmd from specified directory
