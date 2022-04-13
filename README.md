@@ -23,8 +23,8 @@
 ## 📝 Table of Content
 
 - [5 H Data Challenge](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/5%20H%20Data%20Challenge)
+- [Bank's Customers Analyst](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Bank's%20Customers%20Analyst)
 - [Compress Pic](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Compress%20Pic)
-- [Conclusion Dqlab Analyst Career Track](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Conclusion%20Dqlab%20Analyst%20Career%20Track)
 - [CRUD API With MongoDb](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/CRUD%20API%20With%20MongoDb)
 - [Customer Personality Analysis](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Customer%20Personality%20Analysis)
 - [Hotel Recommendation System](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Hotel%20Recommendation%20System)
