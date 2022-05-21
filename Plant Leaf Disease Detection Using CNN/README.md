@@ -20,6 +20,8 @@
     <br> 
 </p>
 
+[<h3>Check Website</h3>](https://klasifikasi-gambar.herokuapp.com/)
+
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 Run the project on your local machine for development and testing purposes.
