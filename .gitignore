@@ -25,3 +25,4 @@ Multi JPG Subfolder to PDF/main2.py
 *.xlsx
 5 H Data Challenge/Questions.ipynb
 *.pyc
+/.idea
