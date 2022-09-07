@@ -3,14 +3,18 @@ from models.student import Student
 from config.database import connection
 from schemas.student import studentEntity, listOfStudentEntity
 from bson import ObjectId
+import json
 
 student_router = APIRouter()
 koneksi = connection.local.student
 
+ref = '{"Documentation":"/docs","Created":"https://github.com/Ryas-Yusenda"}'
+ref_object = json.loads(ref)
 
-@student_router.get('/hello')
-async def hello_world():
-    return 'HELLO WORLD'
+
+@student_router.get('/')
+async def root():
+    return ref_object
 
 
 # GET ALL STUDENT

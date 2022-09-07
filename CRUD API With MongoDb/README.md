@@ -29,7 +29,7 @@ Run the project on your local machine for development and testing purposes.
 You have to install some prerequisites.
 
 ```
-pip install pymongo, fastapi, uvicorn, bson
+pip install pymongo fastapi uvicorn
 ```
 
 ### Installing
@@ -55,6 +55,8 @@ cmd
 Then run the command
 
 ```
+python main,py
+or
 uvicorn main:app --reload
 ```
 
