@@ -10,15 +10,15 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from cryptography.fernet import Fernet
-from os import path
-
-from regex import F
+import os
+import shutil
+import datetime
 
 
 class Ui_MainWindows(object):
     def setupUi(self, MainWindows):
         MainWindows.setObjectName("MainWindows")
-        MainWindows.resize(679, 526)
+        MainWindows.setFixedSize(679, 526)
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("icon.ico"),
                        QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -160,7 +160,7 @@ class Ui_MainWindows(object):
         self.admin.setObjectName("admin")
         self.label_info = QtWidgets.QLabel(self.centralwidget)
         self.label_info.setGeometry(QtCore.QRect(20, 500, 631, 20))
-        self.label_info.setObjectName("label_6")
+        self.label_info.setObjectName("label_info")
         MainWindows.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindows)
@@ -194,7 +194,7 @@ class Ui_MainWindows(object):
         fernet = Fernet(key)
 
         # opening the original file to encrypt
-        with open('database.txt', 'rb') as file:
+        with open('database.db', 'rb') as file:
             original = file.read()
             file.close()
 
@@ -203,7 +203,7 @@ class Ui_MainWindows(object):
 
         # opening the file in write mode and
         # writing the encrypted data
-        with open('database.txt', 'wb') as encrypted_file:
+        with open('database.db', 'wb') as encrypted_file:
             encrypted_file.write(encrypted)
             encrypted_file.close()
 
@@ -212,89 +212,118 @@ class Ui_MainWindows(object):
         fernet = Fernet(key)
 
         # opening the encrypted file
-        with open('database.txt', 'rb') as enc_file:
+        with open('database.db', 'rb') as enc_file:
             encrypted = enc_file.read()
             enc_file.close()
 
         # decrypting the file
-        try:
-            decrypted = fernet.decrypt(encrypted)
-        except:
-            self.label_6.setText("INFO: Error Decrypted Data")
+        decrypted = fernet.decrypt(encrypted)
+
         # opening the file in write mode and
         # writing the decrypted data
-        with open('database.txt', 'wb') as dec_file:
+        with open('database.db', 'wb') as dec_file:
             dec_file.write(decrypted)
             dec_file.close()
 
+    def save_new_data(self, akun, username, password):
+        # key generation
+        key = Fernet.generate_key()
+        # string the key in a file
+        with open('filekey.key', 'wb') as filekey:
+            filekey.write(key)
+            filekey.close()
+
+        file = open("database.db", "w")
+        file.write(akun + "," + username + "," + password + ",")
+        file.close()
+        self.encrypt_file(key)
+        self.admin.setText("")
+        self.label_info.setText("INFO: Data saved")
+
     def save_data(self):
+        akun = self.akunInput.text() if self.akunInput.text() != "" else False
+        username = self.usernameInput.text() if self.usernameInput.text() != "" else False
+        password = self.passwordInput.text() if self.passwordInput.text() != "" else False
+
         try:
-            akun = self.akunInput.text() if self.akunInput.text() != "" else False
-            username = self.usernameInput.text() if self.usernameInput.text() != "" else False
-            password = self.passwordInput.text() if self.passwordInput.text() != "" else False
-
             if akun and username and password:
-                if path.exists("database.txt") and self.admin.text() != "":
-                    try:
-                        self.decrypt_file(self.admin.text())
-                        with open("database.txt", "r") as f:
-                            db = f.read()
-                            f.close()
-                        file = open("database.txt", "w")
-                        file.write(db + akun + "," + username +
-                                   "," + password + ",")
-                        file.close()
-                        self.encrypt_file(self.admin.text())
-                    except:
-                        self.label_6.setText("INFO: Key is Wrong")
-                else:
-                    # key generation
-                    key = Fernet.generate_key()
-                    # string the key in a file
-                    with open('filekey.key', 'wb') as filekey:
-                        filekey.write(key)
-                        filekey.close()
-
-                    file = open("database.txt", "w")
-                    file.write(akun + "," + username + "," + password + ",")
+                if os.path.exists("database.db") and self.admin.text() != "":
+                    self.decrypt_file(self.admin.text())
+                    with open("database.db", "r") as f:
+                        db = f.read()
+                        f.close()
+                    file = open("database.db", "w")
+                    file.write(db + akun + "," + username +
+                               "," + password + ",")
                     file.close()
-                    self.encrypt_file(key)
-                    self.label_6.setText("INFO: Data saved")
+                    self.encrypt_file(self.admin.text())
+                else:
+                    self.save_new_data(akun, username, password)
+            else:
+                self.label_info.setText("INFO: Please input all data")
         except:
-            self.label_6.setText("INFO: Data NOT save")
+            try:
+                if not os.path.exists("./backup"):
+                    os.mkdir("./backup")
+
+                # Source path
+                source = "database.db"
+                # Destination path
+                destination = "./backup/database" + "" + ".db"
+
+                # timestamp rename file and move file
+                now = datetime.datetime.now()
+                dt_string = now.strftime("%d-%m-%Y %H-%M-%S")
+                destination = "./backup/%s-database.db" % dt_string
+
+                # Copy the content of
+                shutil.copyfile(source, destination)
+                os.remove("database.db")
+
+                self.save_new_data(akun, username, password)
+                self.label_info.setText(
+                    "INFO: New Key Generated And New Database")
+
+            except:
+                self.label_info.setText("INFO: Data Not save")
         finally:
             self.akunInput.setText("")
             self.usernameInput.setText("")
             self.passwordInput.setText("")
 
     def show_data(self):
-        self.label_info.setText("INFO: Show Data")
-        if self.admin.text() != "":
-            try:
-                self.decrypt_file(self.admin.text())
-                with open("database.txt", "r") as f:
-                    db = f.read()
-                    f.close()
-                self.encrypt_file(self.admin.text())
+        if os.path.exists("database.db"):
+            if self.admin.text() != "":
                 try:
-                    words = db.split(',')
-                    words.remove("")
-                    length = int(len(words) / 3)
-                    row = 0
-                    self.tableWidget.setRowCount(length)
-                    for num in range(length):
-                        self.tableWidget.setItem(
-                            row, 0, QtWidgets.QTableWidgetItem(words[0+(num*3)]))
-                        self.tableWidget.setItem(
-                            row, 1, QtWidgets.QTableWidgetItem(words[1+(num*3)]))
-                        self.tableWidget.setItem(
-                            row, 2, QtWidgets.QTableWidgetItem(words[2+(num*3)]))
-                        row += 1
-                    self.label_info.setText("INFO: Show Data Success")
+                    self.decrypt_file(self.admin.text())
+                    try:
+                        with open("database.db", "r") as f:
+                            db = f.read()
+                            f.close()
+                        self.encrypt_file(self.admin.text())
+                        words = db.split(',')
+                        words.remove("")
+                        length = int(len(words) / 3)
+                        row = 0
+                        self.tableWidget.setRowCount(length)
+                        for num in range(length):
+                            self.tableWidget.setItem(
+                                row, 0, QtWidgets.QTableWidgetItem(words[0+(num*3)]))
+                            self.tableWidget.setItem(
+                                row, 1, QtWidgets.QTableWidgetItem(words[1+(num*3)]))
+                            self.tableWidget.setItem(
+                                row, 2, QtWidgets.QTableWidgetItem(words[2+(num*3)]))
+                            row += 1
+                        self.label_info.setText("INFO: Show Data Success")
+                    except:
+                        self.label_info.setText("INFO: Error File Database")
                 except:
-                    self.label_info.setText("INFO: Error Database")
-            except:
-                self.label_info.setText("INFO: Invalid Key")
+                    self.admin.setText("")
+                    self.label_info.setText("INFO: Invalid Key")
+            else:
+                self.label_info.setText("INFO: Please Input Key")
+        else:
+            self.label_info.setText("INFO: Database Not Found")
 
     def hide_data(self):
         self.label_info.setText("INFO: Hide Data")
