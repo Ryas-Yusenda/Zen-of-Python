@@ -60,6 +60,12 @@ Then run the command
 jupyter notebook
 ```
 
+Or you can install apk
+[here](/APK/)
+
+Or open this [link](https://qppl-leaf-disease.streamlitapp.com/)
+
+
 ## 🎈 Usage <a name="usage"></a>
 
 This project aims to solve the problem of leaf disease detection with machine learning using Python. I made this program with my group(Me, Khalil, Torangto).
