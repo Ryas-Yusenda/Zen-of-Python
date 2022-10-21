@@ -57,6 +57,11 @@ Or run with
 python main.py
 ```
 
+Or open this [Link](https://api-antaranews.vercel.app/)
+
+```
+search/?q=test
+```
 ## 🎈 Usage <a name="usage"></a>
 
 This project aims Data Extraction - Data Cleaning - Data Analysis using python.
