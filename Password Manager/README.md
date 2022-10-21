@@ -58,6 +58,12 @@ Then run the command
 run.exe
 ```
 
+or
+
+```
+pyinstaller --onefile --windowed --icon=icon.ico main.py
+```
+
 ## 🎈 Usage <a name="usage"></a>
 
 I'm too lazy to do it manually. So I made an application in python to make my work easier, by compressing photos automatically.
