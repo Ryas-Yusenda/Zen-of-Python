@@ -23,7 +23,7 @@
 ## 📝 Table of Content
 
 - [5 H Data Challenge](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/5%20H%20Data%20Challenge)
-- []()
+- [API Antara News](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/API%20Antara%20News)
 - [Bank's Customers Analyst](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Bank's%20Customers%20Analyst)
 - [Compress Pic](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Compress%20Pic)
 - [CRUD API With MongoDb](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/CRUD%20API%20With%20MongoDb)
@@ -38,6 +38,7 @@
 - [Plant Leaf Disease Detection Using CNN](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Plant%20Leaf%20Disease%20Detection%20Using%20CNN)
 - [Python Bootcamp 2021 Build 15 working Applications and Games](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Python%20Bootcamp%202021%20Build%2015%20working%20Applications%20and%20Games)
 - [Render Blender](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Render%20Blender)
+- [Selenium Gform](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Selenium%20Gform)
 - [Text Emotions Detection](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Text%20Emotions%20Detection)
 - [Visualisasi Data COVID-19](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Visualisasi%20Data%20COVID-19)
 - [Webp to PNG Converter](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Webp%20to%20PNG%20Converter)

@@ -61,7 +61,7 @@ jupyter notebook
 ```
 
 Or you can install apk
-[here](/APK/)
+[here](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Plant%20Leaf%20Disease%20Detection%20Using%20CNN/APK)
 
 Or open this [link](https://qppl-leaf-disease.streamlitapp.com/)
 
