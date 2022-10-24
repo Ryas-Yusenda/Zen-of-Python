@@ -27,3 +27,6 @@ Multi JPG Subfolder to PDF/main2.py
 *.pyc
 /.idea
 Automatically Visualize Datasets with AutoViz/AutoViz_Plots/AutoViz/pair_scatters.html
+Video Downloader Youtube Tiktok/a.ipynb
+Video Downloader Youtube Tiktok/Meta/*
+Video Downloader Youtube Tiktok/main.py
