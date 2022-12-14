@@ -1,0 +1,5 @@
+chanel,jeda_waktu,jumlah(all atau 1/2/3)
+www.youtube.com/channel/UCYIaHdCVrc7mFueQgCXCHdw,2,2
+www.youtube.com/channel/UC5xbgeOJ3qLfJ_1eunKUyCA,1,all
+www.tiktok.com/@0xcurtis,2,2
+www.tiktok.com/@takumiata,1,all
