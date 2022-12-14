@@ -1,0 +1,1 @@
+ffmpeg -i 20221024_083046.mp4 -crf 35 20221024_083046.compressed2.mp4
