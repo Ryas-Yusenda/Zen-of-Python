@@ -1,0 +1,5 @@
+numpy
+pandas
+datetime
+matplotlib
+seaborn
