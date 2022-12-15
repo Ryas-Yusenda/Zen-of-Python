@@ -1,6 +1,6 @@
 from fastapi.responses import FileResponse
 from fastapi import FastAPI
-from routes.student import student_router
+from student import *
 import uvicorn
 import os
 

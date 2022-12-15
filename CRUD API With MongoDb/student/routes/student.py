@@ -1,7 +1,7 @@
 from fastapi import APIRouter
-from models.student import Student
-from config.database import connection
-from schemas.student import studentEntity, listOfStudentEntity
+from ..models.student import Student
+from ..config.database import connection
+from ..schemas.student import studentEntity, listOfStudentEntity
 from bson import ObjectId
 import json
 
