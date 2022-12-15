@@ -83,6 +83,7 @@ for filename in filenames:  # loop through all the files and folders
 
 
 result.sort()
+print("Total folder: {}".format(len(result)))
 print(result)
 
 # To save Foldes names to a file.
