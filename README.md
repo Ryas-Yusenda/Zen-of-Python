@@ -39,6 +39,7 @@
 - [NLP WhatsApp Chat](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20WhatsApp%20Chat)
 - [NLP Zomato Restaurant](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20Zomato%20Restaurant)
 - [Obfuscate Python Code](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Obfuscate%20Python%20Code)
+- [Package Dotenv](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Package%20Dotenv)
 - [Password Manager](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Password%20Manager)
 - [Plant Leaf Disease Detection Using CNN](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Plant%20Leaf%20Disease%20Detection%20Using%20CNN)
 - [QR Code Scanner & Generator with GUI](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/QR%20Code%20Scanner%20&%20Generator%20with%20GUI)
