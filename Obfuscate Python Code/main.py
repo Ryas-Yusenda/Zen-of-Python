@@ -1,0 +1,1 @@
+print("=== pyarmor obfuscate main.py")
