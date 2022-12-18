@@ -10,10 +10,9 @@ from PyQt5 import uic, QtGui, QtCore
 class MyGUI(QMainWindow):
 
     def __init__(self):
-        self.path = sys.argv[0][:sys.argv[0].rfind('/')]
 
         super(MyGUI, self).__init__()
-        uic.loadUi(self.path + "/design.ui", self)
+        uic.loadUi("./design.ui", self)
         
         self.show()
 
@@ -58,8 +57,8 @@ class MyGUI(QMainWindow):
         qr.add_data(self.textEdit.toPlainText())
         qr.make(fit=True)
         img = qr.make_image(fill_color="black", back_color="white")
-        img.save(self.path + "/QR.png")
-        pixmap = QtGui.QPixmap(self.path + "/QR.png")
+        img.save("./QR.png")
+        pixmap = QtGui.QPixmap("./QR.png")
         pixmap = pixmap.scaled(300, 300, QtCore.Qt.KeepAspectRatio)
         self.label.setPixmap(pixmap)
 
@@ -73,8 +72,8 @@ class MyGUI(QMainWindow):
             self.textEdit.setText("No QR Code Found")
 
     def close(self):
-        if os.path.exists(self.path + "/QR.png"):
-            os.remove(self.path + "/QR.png")
+        if os.path.exists("./QR.png"):
+            os.remove("./QR.png")
         sys.exit()
 
     def closeEvent(self, event):
@@ -82,8 +81,8 @@ class MyGUI(QMainWindow):
                                      QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
         if reply == QMessageBox.Yes:
             event.accept()
-            if os.path.exists(self.path + "/QR.png"):
-                os.remove(self.path + "/QR.png")
+            if os.path.exists("./QR.png"):
+                os.remove("./QR.png")
             print('Window closed')
         else:
             event.ignore()
