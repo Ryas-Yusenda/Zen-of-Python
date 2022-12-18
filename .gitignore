@@ -1,5 +1,7 @@
+*.ui
 *.csv
 *.pdf
+*/ui_design.py
 Compress Pic/Compress_pic.py
 Compress Pic/Compress.cmd
 Compress Pic/Persen/*
