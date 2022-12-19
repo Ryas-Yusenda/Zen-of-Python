@@ -33,6 +33,7 @@
 - [Customer Personality Analysis](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Customer%20Personality%20Analysis)
 - [Hotel Recommendation System](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Hotel%20Recommendation%20System)
 - [Load Database Tables Into Pandas](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Load%20Database%20Tables%20Into%20Pandas)
+- [Modern GUI Tkinter](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Modern%20GUI%20Tkinter)
 - [Multi JPG Subfolder to PDF](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Multi%20JPG%20Subfolder%20to%20PDF)
 - [NLP Artikel Indoesia](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20Artikel%20Indoesia)
 - [NLP Fake or Real News](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/NLP%20Fake%20or%20Real%20News)
