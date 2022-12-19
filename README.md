@@ -47,9 +47,11 @@
 - [Render Blender](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Render%20Blender)
 - [Selenium Gform](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Selenium%20Gform)
 - [Text Emotions Detection](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Text%20Emotions%20Detection)
+- [Two-Factor Authentication (2FA)](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Two-Factor%20Authentication%20(2FA))
 - [Video Downloader Youtube Tiktok](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Video%20Downloader%20Youtube%20Tiktok)
 - [Visualisasi Data COVID-19](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Visualisasi%20Data%20COVID-19)
 - [Webp to PNG Converter](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Webp%20to%20PNG%20Converter)
+- [Windows Notification](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Windows%20Notification)
 ## 🏁 Getting Started <a name="getting_started"></a>
 
 Run the project on your local machine for development and testing purposes.
