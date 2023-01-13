@@ -31,6 +31,7 @@
 - [Compress Pic](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Compress%20Pic)
 - [Compress Vidio](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Compress%20Vidio)
 - [Customer Personality Analysis](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Customer%20Personality%20Analysis)
+- [Flask Form](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Flask%20Form)
 - [Hotel Recommendation System](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Hotel%20Recommendation%20System)
 - [Load Database Tables Into Pandas](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Load%20Database%20Tables%20Into%20Pandas)
 - [Modern GUI Tkinter](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Modern%20GUI%20Tkinter)
