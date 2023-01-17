@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Ryas-Yusenda <44300598+Ryas-Yusenda@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "python_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.2"
+
+[tool.poetry.scripts]
+my-script = "python_poetry:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

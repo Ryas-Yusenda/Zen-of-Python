@@ -54,6 +54,7 @@
 - [Visualisasi Data COVID-19](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Visualisasi%20Data%20COVID-19)
 - [Webp to PNG Converter](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Webp%20to%20PNG%20Converter)
 - [Windows Notification](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Windows%20Notification)
+- [python_poetry](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/python_poetry)
 ## 🏁 Getting Started <a name="getting_started"></a>
 
 Run the project on your local machine for development and testing purposes.
