@@ -30,6 +30,7 @@
 - [CRUD API With MongoDb](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/CRUD%20API%20With%20MongoDb)
 - [Compress Pic](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Compress%20Pic)
 - [Compress Vidio](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Compress%20Vidio)
+- [Create a Symbolic Link](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Create%20a%20Symbolic%20Link)
 - [Customer Personality Analysis](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Customer%20Personality%20Analysis)
 - [Flask Form](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Flask%20Form)
 - [Hotel Recommendation System](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Hotel%20Recommendation%20System)
@@ -45,6 +46,7 @@
 - [Package Dotenv](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Package%20Dotenv)
 - [Password Manager](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Password%20Manager)
 - [Plant Leaf Disease Detection Using CNN](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Plant%20Leaf%20Disease%20Detection%20Using%20CNN)
+- [Python_poetry](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Python_poetry)
 - [QR Code Scanner & Generator with GUI](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/QR%20Code%20Scanner%20&%20Generator%20with%20GUI)
 - [Render Blender](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Render%20Blender)
 - [Selenium Gform](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Selenium%20Gform)
@@ -54,7 +56,6 @@
 - [Visualisasi Data COVID-19](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Visualisasi%20Data%20COVID-19)
 - [Webp to PNG Converter](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Webp%20to%20PNG%20Converter)
 - [Windows Notification](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Windows%20Notification)
-- [python_poetry](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/python_poetry)
 ## 🏁 Getting Started <a name="getting_started"></a>
 
 Run the project on your local machine for development and testing purposes.
