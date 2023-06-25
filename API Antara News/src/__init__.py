@@ -1,2 +1,2 @@
-from .code import Code
-from .res import success
+from .code import *
+from .res import *

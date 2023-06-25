@@ -3,7 +3,6 @@ from requests import get
 
 base_url = 'https://www.antaranews.com'
 
-
 class Script:
 
     def query(self, url):
