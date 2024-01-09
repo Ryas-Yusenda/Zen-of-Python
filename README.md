@@ -34,6 +34,7 @@
 - [Customer Personality Analysis](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Customer%20Personality%20Analysis)
 - [Flask Form](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Flask%20Form)
 - [Hotel Recommendation System](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Hotel%20Recommendation%20System)
+- [Image to Text](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Image%20to%20Text)
 - [Load Database Tables Into Pandas](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Load%20Database%20Tables%20Into%20Pandas)
 - [Modern GUI Tkinter](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Modern%20GUI%20Tkinter)
 - [Multi JPG Subfolder to PDF](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Multi%20JPG%20Subfolder%20to%20PDF)
