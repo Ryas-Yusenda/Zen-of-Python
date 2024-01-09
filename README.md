@@ -24,6 +24,7 @@
 
 - [5 H Data Challenge](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/5%20H%20Data%20Challenge)
 - [API Antara News](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/API%20Antara%20News)
+- [Add silent in mp3](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Add%20silent%20in%20mp3)
 - [Automatic Photoshop Click](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Automatic%20Photoshop%20Click)
 - [Bank's Customers Analyst](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Bank's%20Customers%20Analyst)
 - [Build 15 Applications and Games](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Build%2015%20Applications%20and%20Games)
