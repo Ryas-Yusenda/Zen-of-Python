@@ -33,6 +33,7 @@
 - [Compress Vidio](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Compress%20Vidio)
 - [Create a Symbolic Link](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Create%20a%20Symbolic%20Link)
 - [Customer Personality Analysis](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Customer%20Personality%20Analysis)
+- [Download File From Sosial Media](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Download%20File%20From%20Sosial%20Media)
 - [Flask Form](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Flask%20Form)
 - [Hotel Recommendation System](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Hotel%20Recommendation%20System)
 - [Image to Text](https://github.com/Ryas-Yusenda/Zen-of-Python/tree/main/Image%20to%20Text)
