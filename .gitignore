@@ -5,6 +5,7 @@
 *.xlsx
 */ui_design.py
 /.idea
+**/.venv
 5 H Data Challenge/Questions.ipynb
 Automatically Visualize Datasets with AutoViz/AutoViz_Plots/AutoViz/pair_scatters.html
 Compress Pic/Compress.cmd
