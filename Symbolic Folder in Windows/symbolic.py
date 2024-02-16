@@ -5,7 +5,7 @@ import os
 
 print(os.getcwd())
 while True:
-    folder_path = input("Enter Folder Path: ")
+    folder_path = input("Enter Folder Path: ").replace('"', "")
 
     folder_path_last = folder_path.split("\\")[-1]
 
